@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contact, Home, NavBar, Gallery, Restaurant, Experience } from '../components';
+import { Contact, Home, NavBar, Gallery, Restaurant, Experience, Information } from '../components';
 
 export const ES = () => {
     
@@ -7,6 +7,7 @@ export const ES = () => {
     <>
       <NavBar lang={'es'} /> 
       <Home/>
+      <Information />
       <Gallery/>
       <Restaurant/>
       <Experience/>

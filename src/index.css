@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Montserrat';
   line-height: 1.5;
   font-weight: 400;
 
@@ -134,7 +134,111 @@ button:focus-visible {
 
 
 
+/* CONTACT */
 
+.contact-container{
+  width: 100%;
+  background-color: #F2F3EB;
+  font-family: 'Montserrat';
+  padding: 1rem;
+}
+
+.contact-form-container{
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.contact-h1{
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline{
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon-wrap{
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.contact-form{
+  padding: 37.5px;
+  margin: 50px 0 20px 0;
+  color: black;
+}
+
+.name{
+  float: left;
+  width: 45%;
+}
+
+.email{
+  float: right;
+  width: 45%;
+}
+
+.stay{
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.contact-input{
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.contact-textarea{
+  overflow: auto;
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+
+.form-btn{
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
 
 /* QUERIES */
 
