@@ -7,6 +7,7 @@ export const Restaurant = () => {
 
     return (
         <>
+        <div id="restaurant-container" className="separador"></div>
         <div className="restaurant-container">
         {
             language ?

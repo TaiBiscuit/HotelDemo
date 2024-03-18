@@ -8,6 +8,7 @@ export const Experience = () => {
     return (
         <>
         <div className="experiences-container">
+        <div id="experiences-container" className="separador"></div>
         {
             language ?
             <>

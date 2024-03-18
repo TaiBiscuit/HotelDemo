@@ -31,11 +31,11 @@ export const NavBar = (props) => {
             <div className="NavbarUl" id="navBar">
                 <button className="nav-activate-btn hide" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill/></button>
                 <div className="links" id="links">
-                <a href="#home" className="NavbarLi">Information</a>
-                <a href="#gallery" className="NavbarLi">Gallery</a>
-                <a href="#restaurant" className="NavbarLi">Restaurant</a>
-                <a href="#experiences" className="NavbarLi">Experiences</a>
-                <a href="#contact" className="NavbarLi">Contact</a>
+                <a href="#home-container" className="NavbarLi">Information</a>
+                <a href="#experiences-container" className="NavbarLi">Experiences</a>
+                <a href="#restaurant-container" className="NavbarLi">Restaurant</a>
+                <a href="#gallery-container" className="NavbarLi">Gallery</a>
+                <a href="#contact-container" className="NavbarLi">Contact</a>
                 </div>
                 <div className="btns">
                 {  language ?  <button className="view-btn" onClick={ (e) => handleLanguage(e)}>EN</button> : <button className="view-btn" onClick={ (e) => handleLanguage(e)}>ES</button>}
@@ -47,11 +47,11 @@ export const NavBar = (props) => {
             <div className="NavbarUl" id="navBar">
                 <button className="nav-activate-btn hide" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill/></button>
                 <div className="links" id="links">
-                <a href="#home" className="NavbarLi">Información</a>
-                <a href="#galery" className="NavbarLi">Galería</a>
-                <a href="#restaurant" className="NavbarLi">Restaurante</a>
-                <a href="#experiences" className="NavbarLi">Experiencias</a>
-                <a href="#contact" className="NavbarLi">Contacto</a>
+                <a href="#home-container" className="NavbarLi">Información</a>
+                <a href="#experiences-container" className="NavbarLi">Experiencias</a>
+                <a href="#restaurant-container" className="NavbarLi">Restaurante</a>
+                <a href="#gallery-container" className="NavbarLi">Galería</a>
+                <a href="#contact-container" className="NavbarLi">Contacto</a>
                 </div>
                 <div className="btns">
                 {  language ?  <button className="view-btn" onClick={ (e) => handleLanguage(e)}>EN</button> : <button className="view-btn" onClick={ (e) => handleLanguage(e)}>ES</button>}

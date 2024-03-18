@@ -8,6 +8,7 @@ export const Contact = () => {
     return (
         <>
         <div className="contact-container">
+        <div id="contact-container" className="separador"></div>
             <div className="contact-form-container">
             {
                 language ?
@@ -32,7 +33,7 @@ export const Contact = () => {
                     <label htmlFor="comment" className="contact-label">Extra comments</label>
                         <textarea name="" id="" cols="30" rows="5" className="contact-textarea"></textarea>
                     </div>
-                    <div class="submit">
+                    <div className="submit">
                     <input type="submit" value="Send Message" id="form-btn" className="form-btn" />
                     </div>
                 </form>
@@ -59,7 +60,7 @@ export const Contact = () => {
                     <label htmlFor="comment" className="contact-label">Comentarios extra</label>
                         <textarea name="" id="" cols="30" rows="5" className="contact-textarea"></textarea>
                     </div>
-                    <div class="submit">
+                    <div className="submit">
                     <input type="submit" value="Enviar mensaje" id="form-btn" className="form-btn" />
                     </div>
                 </form>
