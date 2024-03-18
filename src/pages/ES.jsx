@@ -8,9 +8,9 @@ export const ES = () => {
       <NavBar lang={'es'} /> 
       <Home/>
       <Information />
-      <Gallery/>
-      <Restaurant/>
       <Experience/>
+      <Restaurant/>
+      <Gallery/>
       <Contact/>
     </>
     )

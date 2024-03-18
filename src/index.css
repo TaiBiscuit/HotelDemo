@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Montserrat';
   line-height: 1.5;
@@ -70,6 +71,7 @@ button:focus-visible {
 
 .NavbarUl{
   display: flex;
+  position: fixed;
   background-color: #333;
   overflow: hidden;
   justify-content: space-between;
@@ -130,8 +132,127 @@ button:focus-visible {
 
 
 
+/* EXP */
+
+.experiences-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suites-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5rem 0;
+}
+
+.card{
+  padding: 2em;
+  max-width: 400px;
+}
+
+.card-btm{
+  background-color: #F2F3EB;
+  color: #474544;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.card-title{
+  padding: 1px 24px 5px;
+}
+
+.card-txt{
+  padding: 30px 0;
+}
+
+.card-img{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 
 
+/* RESTAURANT */
+
+.restaurant-container{
+  display: flex;
+  background-color: #F2F3EB;
+  color: #474544;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-img{
+  width: 25vw;
+  height: 50vh;
+  margin-left: 1.5rem;
+}
+
+.restaurant-txt p {
+  word-wrap: break-word;
+  width: 450px
+}
+
+
+/* GALLERY */
+
+.gallery-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-wrap {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 5rem 0;
+  gap: 1rem 1rem;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "gallery-img-container gallery-img-container2 gallery-img-container3"
+    "gallery-img-container4 gallery-img-container5 gallery-img-container6"
+    "gallery-img-container7 gallery-img-container8 gallery-img-container9";
+}
+
+.gallery-img-container { grid-area: gallery-img-container; }
+
+.gallery-img-container2 { grid-area: gallery-img-container2; }
+
+.gallery-img-container3 { grid-area: gallery-img-container3; }
+
+.gallery-img-container4 { grid-area: gallery-img-container4; }
+
+.gallery-img-container5 { grid-area: gallery-img-container5; }
+
+.gallery-img-container6 { grid-area: gallery-img-container6; }
+
+.gallery-img-container7 { grid-area: gallery-img-container7; }
+
+.gallery-img-container8 { grid-area: gallery-img-container8; }
+
+.gallery-img-container9 { grid-area: gallery-img-container9; }
+
+.gallery-img{
+  width: 20vw;
+  height: 40vh;
+}
 
 
 /* CONTACT */
@@ -222,6 +343,7 @@ button:focus-visible {
   width: 100%;
   box-sizing: border-box;
   transition: all 0.3s;
+  resize: none;
 }
 
 
@@ -239,6 +361,17 @@ button:focus-visible {
   text-transform: uppercase;
   transition: all 0.3s;
 }
+
+.form-btn:hover{
+  background: #474544;
+  color: #F2F3EB;
+}
+
+.contact-input:focus, .contact-textarea:focus{
+  outline: none;
+	padding: 0 0 0.875em 0;
+}
+
 
 /* QUERIES */
 

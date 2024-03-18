@@ -8,9 +8,9 @@ export const Default = () => {
       <NavBar /> 
       <Home/>
       <Information />
-      <Gallery/>
-      <Restaurant/>
       <Experience/>
+      <Restaurant/>
+      <Gallery/>
       <Contact/>
     </>
     )

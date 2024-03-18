@@ -42,7 +42,27 @@ export const Contact = () => {
                 <h1 className="contact-h1">• Contactanos •</h1>
                 <div className="underline"></div>
                 <div className="icon-wrap"></div>
-                <form action="" className="contact-form"></form>
+                <form action="" className="contact-form">
+                    <div className="name">
+                        <label htmlFor="name" className="contact-label">Mi nombre es</label>
+                        <input type="text" className="contact-input"/>
+                    </div>
+                    <div className="email">
+                    <label htmlFor="email" className="contact-label">Mi email es</label>
+                        <input type="text" className="contact-input"/>
+                    </div>
+                    <div className="stay">
+                    <label htmlFor="stay" className="contact-label">Me quedo desde / hasta </label>
+                        <input type="text" className="contact-input"/>
+                    </div>
+                    <div className="comment">
+                    <label htmlFor="comment" className="contact-label">Comentarios extra</label>
+                        <textarea name="" id="" cols="30" rows="5" className="contact-textarea"></textarea>
+                    </div>
+                    <div class="submit">
+                    <input type="submit" value="Enviar mensaje" id="form-btn" className="form-btn" />
+                    </div>
+                </form>
                 </>
             }
             </div>
