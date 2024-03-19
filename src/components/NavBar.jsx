@@ -29,7 +29,7 @@ export const NavBar = (props) => {
         <>
         <Link/>
             <div className="NavbarUl" id="navBar">
-                <button className="nav-activate-btn hide" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill/></button>
+                <button className="nav-activate-btn" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill color='white'/></button>
                 <div className="links" id="links">
                 <a href="#home-container" className="NavbarLi">Information</a>
                 <a href="#experiences-container" className="NavbarLi">Experiences</a>
@@ -45,7 +45,7 @@ export const NavBar = (props) => {
     ) : (
         <>
             <div className="NavbarUl" id="navBar">
-                <button className="nav-activate-btn hide" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill/></button>
+                <button className="nav-activate-btn" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill color='white'/></button>
                 <div className="links" id="links">
                 <a href="#home-container" className="NavbarLi">Información</a>
                 <a href="#experiences-container" className="NavbarLi">Experiencias</a>

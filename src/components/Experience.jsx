@@ -12,7 +12,7 @@ export const Experience = () => {
         {
             language ?
             <>
-            <h1>• Check our best Suites •</h1>
+            <h1>• Check our Suites •</h1>
             <div className="underline"></div>
             <div className="suites-container">
                 <div className="card">
@@ -49,7 +49,7 @@ export const Experience = () => {
             </>
             :
             <>
-            <h1>• Vea nuestras mejores suites •</h1>
+            <h1>• Vea las Suites •</h1>
             <div className="underline"></div>
             <div className="suites-container">
                 <div className="card">

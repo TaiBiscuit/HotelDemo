@@ -7,7 +7,6 @@ export const Gallery = () => {
 
     imgCar.forEach(img => {
         img.addEventListener('click', (e) => {
-            console.log(e)
         })
     });
 
@@ -22,7 +21,7 @@ export const Gallery = () => {
             </>
             :
             <>
-            <h1>• Queres ver mas? •</h1>
+            <h1>• ¿Quieres ver más? •</h1>
             </>
         }
             <div className="gallery-wrap">
