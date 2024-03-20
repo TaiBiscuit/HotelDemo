@@ -12,11 +12,11 @@ export const Home = () => {
             {
             language ?
             <>
-            <h1>Welcome to X Hotel</h1>
+            <h1 className="animate__animated animate__fadeIn hero-title">Welcome to X Hotel</h1>
             </>
             :
             <>
-            <h1>Bienvenido al Hotel X</h1>
+            <h1 className="animate__animated animate__fadeIn hero-title">Bienvenido al Hotel X</h1>
             </>
             }
             </div>
