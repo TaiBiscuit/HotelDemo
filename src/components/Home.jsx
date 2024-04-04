@@ -8,6 +8,7 @@ export const Home = () => {
     return (
         <>
         <div className="home-container" id="home-container">
+            <img src="https://i.ibb.co/6gWtQX3/hotel-front.jpg" alt="" className="home-img"/>
             <div className="home-header">
             {
             language ?
@@ -17,18 +18,6 @@ export const Home = () => {
             :
             <>
             <h1 className="animate__animated animate__fadeIn hero-title">Bienvenido al Hotel X</h1>
-            </>
-            }
-            </div>
-            <div className="home-content">
-            {
-            language ?
-            <>
-            <h1>Inmerse yourself in X</h1>
-            </>
-            :
-            <>
-            <h1>Adentrese en X</h1>
             </>
             }
             </div>
