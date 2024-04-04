@@ -31,7 +31,7 @@ export const Experience = () => {
                     <div className="card-btm">
                         <h1 className="card-title">Super suite</h1>
                         <div className="underline"></div>
-                        <p className="card-txt">Decoradas con un distinguido estilo inglés, tanto la suite Senator de 160 metros cuadrados como la suite Governor de 173 metros cuadrados, ofrecen extraordinarias vistas de Buenos Aires desde sus terrazas privadas.</p>
+                        <p className="card-txt">Decorated in a distinguished English style, both the 160 square metre Senator Suite and the 173 square metre Governor Suite offer extraordinary views of Buenos Aires from their private terraces.</p>
                     </div>
                 </div>
                 <div className="card">
@@ -41,7 +41,7 @@ export const Experience = () => {
                     <div className="card-btm">
                         <h1 className="card-title">Suit Corner</h1>
                         <div className="underline"></div>
-                        <p className="card-txt">Decoradas con un distinguido estilo inglés, tanto la suite Senator de 160 metros cuadrados como la suite Governor de 173 metros cuadrados, ofrecen extraordinarias vistas de Buenos Aires desde sus terrazas privadas.</p>
+                        <p className="card-txt">Decorated in a distinguished English style, both the 160 square metre Senator Suite and the 173 square metre Governor Suite offer extraordinary views of Buenos Aires from their private terraces.</p>
                     </div>
                 </div>
                 <div className="card">
@@ -51,7 +51,7 @@ export const Experience = () => {
                     <div className="card-btm">
                         <h1 className="card-title">Best suit</h1>
                         <div className="underline"></div>
-                        <p className="card-txt">Decoradas con un distinguido estilo inglés, tanto la suite Senator de 160 metros cuadrados como la suite Governor de 173 metros cuadrados, ofrecen extraordinarias vistas de Buenos Aires desde sus terrazas privadas.</p>
+                        <p className="card-txt">Decorated in a distinguished English style, both the 160 square metre Senator Suite and the 173 square metre Governor Suite offer extraordinary views of Buenos Aires from their private terraces.</p>
                     </div>
                 </div>
             </div>

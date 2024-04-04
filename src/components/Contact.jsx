@@ -27,7 +27,7 @@ export const Contact = () => {
                     </div>
                     <div className="stay">
                     <label htmlFor="stay" className="contact-label">Im staying from / to </label>
-                     <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" className="contact-input" />
+                     <input type="date" id="start" name="trip-start" value="2024-06-24" min="2024-05-01" max="2027-12-31" className="contact-input" />
                     </div>
                     <div className="comment">
                     <label htmlFor="comment" className="contact-label">Extra comments</label>

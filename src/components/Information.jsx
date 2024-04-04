@@ -14,7 +14,7 @@ export const Information = () => {
             <>
             <div className="info-wrap">
                 <div className="info-txt">
-                    <h1>Best Hotel</h1>
+                    <h1>Hotel Title</h1>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora explicabo voluptas quam? Tempore eum sunt temporibus provident, fugiat voluptas blanditiis aspernatur beatae laudantium rem. Nemo accusamus optio qui cumque!
                     Optio quae laborum voluptatibus nisi ipsum corrupti! Repudiandae vitae itaque quasi cumque possimus aspernatur, provident inventore unde ad labore hic vel quia 
@@ -28,7 +28,7 @@ export const Information = () => {
             <>
             <div className="info-wrap">
                 <div className="info-txt">
-                    <h1>Best Hotel</h1>
+                    <h1>Titulo del Hotel</h1>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora explicabo voluptas quam? Tempore eum sunt temporibus provident, fugiat voluptas blanditiis aspernatur beatae laudantium rem. Nemo accusamus optio qui cumque!
                     Optio quae laborum voluptatibus nisi ipsum corrupti! Repudiandae vitae itaque quasi cumque possimus aspernatur, provident inventore unde ad labore hic vel quia 

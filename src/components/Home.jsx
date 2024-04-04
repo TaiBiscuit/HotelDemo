@@ -8,16 +8,16 @@ export const Home = () => {
     return (
         <>
         <div className="home-container" id="home-container">
-            <img src="https://i.ibb.co/6gWtQX3/hotel-front.jpg" alt="" className="home-img"/>
+            <img src="https://i.ibb.co/6gWtQX3/hotel-front.jpg" alt="" className="home-img animate__animated animate__fadeIn hero-title"/>
             <div className="home-header">
             {
             language ?
             <>
-            <h1 className="animate__animated animate__fadeIn hero-title">Welcome to X Hotel</h1>
+            <h1 className="animate__animated animate__fadeIn hero-title">Welcome</h1>
             </>
             :
             <>
-            <h1 className="animate__animated animate__fadeIn hero-title">Bienvenido al Hotel X</h1>
+            <h1 className="animate__animated animate__fadeIn hero-title">Bienvenidos</h1>
             </>
             }
             </div>
