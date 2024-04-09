@@ -21,7 +21,7 @@ export const Information = () => {
                     </p>
                     <a href="contact-container"><button className="form-btn-2">Reserve now</button></a>
                 </div>
-                <img src="https://i.ibb.co/bJdrcT7/hotel16.jpg" alt="" className="info-img" />
+                <img src="https://i.postimg.cc/c4FWZ6sc/hotel16-re.jpg" alt="" className="info-img animate__animated animate__fadeInLeft" />
             </div>
             </>
             :
@@ -35,7 +35,7 @@ export const Information = () => {
                     </p>
                     <a href="#contact-container"><button className="form-btn-2">Reserve ahora</button></a>
                 </div>
-                <img src="https://i.ibb.co/bJdrcT7/hotel16.jpg" alt="" className="info-img" />
+                <img src="https://i.ibb.co/bJdrcT7/hotel16.jpg" alt="" className="info-img animate__animated animate__fadeInLeft" />
             </div>  
             </>
         }
