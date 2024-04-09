@@ -25,9 +25,15 @@ export const Contact = () => {
                     <label htmlFor="email" className="contact-label">My email is</label>
                         <input type="text" className="contact-input"/>
                     </div>
-                    <div className="stay">
-                    <label htmlFor="stay" className="contact-label">Im staying from / to </label>
-                     <input type="date" id="start" name="trip-start" value="2024-06-24" min="2024-05-01" max="2027-12-31" className="contact-input" />
+                    <div className="stays">
+                    <div className="stay-1">
+                    <label htmlFor="stay" className="contact-label">I am staying from </label>
+                        <input type="date" id="start" name="trip-start" value="2024-04-22" min="2024-08-01" max="2024-12-1" className="contact-input" />
+                    </div>
+                    <div className="stay-2">
+                    <label htmlFor="stay" className="contact-label">I am staying until </label>
+                        <input type="date" id="start" name="trip-start" value="2024-04-22" min="2024-08-01" max="2024-12-1" className="contact-input" />
+                    </div>
                     </div>
                     <div className="comment">
                     <label htmlFor="comment" className="contact-label">Extra comments</label>
@@ -55,14 +61,13 @@ export const Contact = () => {
                     <div className="stays">
                     <div className="stay-1">
                     <label htmlFor="stay" className="contact-label">Me quedo desde </label>
-                        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" className="contact-input" />
+                        <input type="date" id="start" name="trip-start" value="2024-04-22" min="2024-08-01" max="2024-12-1" className="contact-input" />
                     </div>
                     <div className="stay-2">
                     <label htmlFor="stay" className="contact-label">Me quedo hasta </label>
-                        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" className="contact-input" />
+                        <input type="date" id="start" name="trip-start" value="2024-04-22" min="2024-08-01" max="2024-12-1" className="contact-input" />
                     </div>
                     </div>
-
                     <div className="comment">
                     <label htmlFor="comment" className="contact-label">Comentarios extra</label>
                         <textarea name="" id="" cols="30" rows="5" className="contact-textarea"></textarea>

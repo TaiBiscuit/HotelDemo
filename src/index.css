@@ -125,7 +125,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 30vh;
 /*   background-image: url('https://i.ibb.co/6gWtQX3/hotel-front.jpg');
   background-repeat: no-repeat;
   background-size: 100%; */
@@ -460,7 +460,7 @@ button:focus-visible {
 
   .home-header{
     background-position: center;
-    height: 53vh;
+    height: 30vh;
   }
 
   .suites-container{
