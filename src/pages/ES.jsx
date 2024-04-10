@@ -5,6 +5,10 @@ export const ES = () => {
     
     return (
     <>
+      {loading &&
+      <div className="loading-container">
+        <div class="loader"></div>
+      </div>}
       <NavBar lang={'es'} /> 
       <Home/>
       <Information />

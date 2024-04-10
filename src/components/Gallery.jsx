@@ -1,8 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { LoadingContext } from "../context/LoadingContext";
 
 export const Gallery = () => {
     const {language} = useContext(LanguageContext);
+    const {loading} = useContext(LoadingContext);
     const imgCar = document.querySelectorAll('.galimg');
     let slideIndex = 1;
 
@@ -11,7 +13,6 @@ export const Gallery = () => {
         })
     });
 
-    // Next/previous controls
     function plusSlides(n) {
     showSlides(slideIndex += n);
     }
@@ -34,7 +35,7 @@ export const Gallery = () => {
 
     return (
         <>
-        <div className="gallery-container">
+        <div className="gallery-container" style={{ display: loading ? 'none' : 'flex' }}>
         <div id="gallery-container" className="separador"></div>
         {
             language ?

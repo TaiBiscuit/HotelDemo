@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { LoadingContext } from "../context/LoadingContext";
 
 export const Contact = () => {
     const {language} = useContext(LanguageContext);
-
+    const {loading} = useContext(LoadingContext);
 
     return (
         <>
-        <div className="contact-container">
+        <div className="contact-container" style={{ display: loading ? 'none' : 'flex' }}>
         <div id="contact-container" className="separador"></div>
             <div className="contact-form-container">
             {

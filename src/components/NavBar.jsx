@@ -2,9 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import { LanguageContext } from "../context/LanguageContext";
 import { PiNavigationArrowFill } from 'react-icons/pi';
 import { Link, useNavigate } from "react-router-dom";
+import { LoadingContext } from "../context/LoadingContext";
 
 export const NavBar = (props) => {
     const { language, setLanguage } = useContext(LanguageContext);
+    const {loading} = useContext(LoadingContext);
     const navigate = useNavigate();
 
     function handleLanguage(e){
@@ -28,7 +30,7 @@ export const NavBar = (props) => {
     return language ? (
         <>
         <Link/>
-            <div className="NavbarUl" id="navBar">
+            <div className="NavbarUl" id="navBar" style={{ display: loading ? 'none' : 'flex' }}>
                 <button className="nav-activate-btn" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill color='white'/></button>
                 <div className="links" id="links">
                 <a href="#home-container" className="NavbarLi">Information</a>
@@ -44,7 +46,7 @@ export const NavBar = (props) => {
         </>
     ) : (
         <>
-            <div className="NavbarUl" id="navBar">
+            <div className="NavbarUl" id="navBar" style={{ display: loading ? 'none' : 'flex' }}>
                 <button className="nav-activate-btn" id="nav-activate-btn" onClick={(e) => phoneViewHandler(e)}><PiNavigationArrowFill color='white'/></button>
                 <div className="links" id="links">
                 <a href="#home-container" className="NavbarLi">Información</a>

@@ -1,18 +1,21 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { LoadingContext } from "../context/LoadingContext";
 import { useInView } from "framer-motion"
 
 export const Experience = () => {
     const {language} = useContext(LanguageContext);
+    const {loading} = useContext(LoadingContext);
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true })
 
 
     useEffect(() => {
     }, [isInView])
+    
     return (
         <>
-        <div className="experiences-container">
+        <div className="experiences-container" style={{ display: loading ? 'none' : 'flex' }}>
         <div id="experiences-container" className="separador"></div>
         {
             language ?

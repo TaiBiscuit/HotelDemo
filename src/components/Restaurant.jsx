@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { LoadingContext } from "../context/LoadingContext";
 
 export const Restaurant = () => {
     const {language} = useContext(LanguageContext);
-
+    const {loading} = useContext(LoadingContext);
 
     return (
         <>
-        <div id="restaurant-container" className="separador"></div>
-        <div className="restaurant-container">
+        <div id="restaurant-container" className="separador" style={{ display: loading ? 'none' : 'flex' }}></div>
+        <div className="restaurant-container" style={{ display: loading ? 'none' : 'flex' }}>
         {
             language ?
             <>
