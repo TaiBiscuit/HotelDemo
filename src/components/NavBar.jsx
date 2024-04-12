@@ -59,10 +59,10 @@ export const NavBar = (props) => {
                 </div>
                 <div className="moblink" id="links" style={{ display: mobileView ? 'flex' : 'none' }}>
                     <a href="#home-container" className="NavbarLi" onClick={setMobileView}>Information</a>
-                    <a href="#experiences-container" className="NavbarLi" onClick={(e) => retreatNav(e)}>Experiences</a>
-                    <a href="#restaurant-container" className="NavbarLi" onClick={(e) => retreatNav(e)}>Restaurant</a>
-                    <a href="#gallery-container" className="NavbarLi" onClick={(e) => retreatNav(e)}>Gallery</a>
-                    <a href="#contact-container" className="NavbarLi" onClick={(e) => retreatNav(e)}>Contact</a>
+                    <a href="#experiences-container" className="NavbarLi" >Experiences</a>
+                    <a href="#restaurant-container" className="NavbarLi" >Restaurant</a>
+                    <a href="#gallery-container" className="NavbarLi" >Gallery</a>
+                    <a href="#contact-container" className="NavbarLi" >Contact</a>
                 </div>
             </div>
         </>
@@ -81,11 +81,11 @@ export const NavBar = (props) => {
                 {  language ?  <button className="view-btn" onClick={ (e) => handleLanguage(e)}>ES</button>:<button className="view-btn" onClick={ (e) => handleLanguage(e)}>EN</button>}
                 </div>
                 <div className="moblink" id="links" style={{ display: mobileView ? 'flex' : 'none' }}>
-                    <a href="#home-container" className="NavbarLi">Información</a>
-                    <a href="#experiences-container" className="NavbarLi">Experiencias</a>
-                    <a href="#restaurant-container" className="NavbarLi">Restaurante</a>
-                    <a href="#gallery-container" className="NavbarLi">Galería</a>
-                    <a href="#contact-container" className="NavbarLi">Contacto</a>
+                    <a href="#home-container" className="NavbarLi" >Información</a>
+                    <a href="#experiences-container" className="NavbarLi" >Experiencias</a>
+                    <a href="#restaurant-container" className="NavbarLi" >Restaurante</a>
+                    <a href="#gallery-container" className="NavbarLi" >Galería</a>
+                    <a href="#contact-container" className="NavbarLi" >Contacto</a>
                 </div>
             </div>
         </>
