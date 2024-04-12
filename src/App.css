@@ -44,15 +44,17 @@
   height: 100vh;
 }
 
-
 .loader {
-  width: 120px;
-  height: 24px;
-  background:
-   linear-gradient(#25b09b 0 0) 0/0% no-repeat
-   #ddd;
-  animation: l7 2s infinite linear;
+  --s: 40px;
+  height: calc(var(--s)*0.9);
+  width: calc(var(--s)*5);
+ --v1:transparent,#000 0.5deg 108deg,#0000 109deg;
+ --v2:transparent,#000 0.5deg  36deg,#0000  37deg;
+ -webkit-mask-composite: xor,destination-over;
+         mask-composite: exclude,add;
+ background:linear-gradient(#ffb940 0 0) left/0% 100% #ddd no-repeat;
+ animation: l20 2s infinite linear;
 }
-@keyframes l7 {
-    100% {background-size:100%}
+@keyframes l20 {
+   90%,100% {background-size:100% 100%}
 }
