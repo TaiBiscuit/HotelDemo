@@ -9,7 +9,7 @@ export const Default = () => {
     <>
       {loading &&
       <div className="loading-container">
-        <div class="loader"></div>
+        <div className="loader"></div>
       </div>}
       <NavBar/> 
       <Home/>

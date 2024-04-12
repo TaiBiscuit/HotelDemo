@@ -126,9 +126,6 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   height: 30vh;
-/*   background-image: url('https://i.ibb.co/6gWtQX3/hotel-front.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%; */
 }
 
 
@@ -153,8 +150,17 @@ button:focus-visible {
   width: 28vw;
   height: 50vh;
   margin-right: 2rem;
+  transition: all 0.3s ease;
+  border-radius: 5px;
 }
 
+.img-hov{
+  transition: all 0.3s ease;
+}
+
+.img-hov:hover{
+  transform: scale(1.03);
+}
 .info-txt p {
   word-wrap: break-word;
   width: 450px
@@ -236,6 +242,7 @@ button:focus-visible {
   word-wrap: break-word;
   width: 450px
 }
+
 
 
 /* GALLERY */
@@ -456,6 +463,10 @@ button:focus-visible {
 
   .NavbarUl{
     justify-content: space-evenly;
+  }
+
+  .moblink{
+    flex-direction: column;
   }
 
   .home-header{

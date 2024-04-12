@@ -22,7 +22,9 @@ export const Restaurant = () => {
                     </p>
                     <button className="form-btn">Check it out</button>
                 </div>
+                <div className="img-res-hov">
                 <img src="https://i.ibb.co/jV3BNZs/restaurant1.jpg" alt="" className="restaurant-img" />
+                </div>
             </div>
             </>
             :
@@ -36,7 +38,9 @@ export const Restaurant = () => {
                     </p>
                     <button className="form-btn">Visitá la página</button>
                 </div>
+                <div className="img-res-hov">
                 <img src="https://i.ibb.co/jV3BNZs/restaurant1.jpg" alt="" className="restaurant-img" />
+                </div>
             </div>
             </>
         }

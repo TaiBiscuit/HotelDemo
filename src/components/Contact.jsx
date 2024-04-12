@@ -17,7 +17,7 @@ export const Contact = () => {
                 <h1 className="contact-h1">• Keep in Touch •</h1>
                 <div className="underline"></div>
                 <div className="icon-wrap"></div>
-                <form action="" className="contact-form">
+                <form action="POST" className="contact-form">
                     <div className="name">
                         <label htmlFor="name" className="contact-label">My name is</label>
                         <input type="text" className="contact-input"/>

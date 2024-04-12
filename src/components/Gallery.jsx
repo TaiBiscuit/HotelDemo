@@ -49,16 +49,16 @@ export const Gallery = () => {
         }
         <div className="gallery-wrap-mobile">
             <div className="gallery-carrousel">
-                <div className="slide fade"><div className="gallery-img-container galimgmob"><img src="https://i.ibb.co/3CY1QVB/hotel3.jpg" alt="" className="gallery-img-m" /></div></div>
+                <div className="slide fade"><div className="gallery-img-container galimgmob"><img src="https://i.ibb.co/yBmzbSr/hotel2.jpg" alt="" className="gallery-img-m" /></div></div>
                 <div className="slide fade"><div className="gallery-img-container2 galimgmob"><img src="https://i.postimg.cc/d0tsMXZL/hotel7.jpg" alt="" className="gallery-img-m"/></div></div>
                 <div className="slide fade"><div className="gallery-img-container3 galimgmob"><img src="https://i.postimg.cc/5t7xf38p/hotel8.jpg" alt="" className="gallery-img-m"/></div></div>
                 <div className="slide fade"><div className="gallery-img-container5 galimgmob"><img src="https://i.postimg.cc/BQ9JZt1W/hotel12.jpg" alt="" className="gallery-img-m"/></div></div>
                 <div className="slide fade"><div className="gallery-img-container6 galimgmob"><img src="https://i.postimg.cc/htMn0rZg/hotel13.jpg" alt="" className="gallery-img-m"/></div></div>
                 <div className="slide fade"><div className="gallery-img-container7 galimgmob"><img src="https://i.postimg.cc/JhnLYkSX/hotel15.jpg" alt="" className="gallery-img-m" /></div></div>
                 <div className="slide fade"><div className="gallery-img-container8 galimgmob"><img src="https://i.postimg.cc/7PCLYpsz/hotel1.jpg" alt="" className="gallery-img-m"/></div></div>
-                <div className="slide fade"><div className="gallery-img-container9 galimgmob"><img src="https://i.ibb.co/yBmzbSr/hotel2.jpg" alt="" className="gallery-img-m"/></div></div>
-                <a class="prev" onClick={(e) => plusSlides(-1)}>&#10094;</a>
-                <a class="next" onClick={(e) => plusSlides(1)}>&#10095;</a>
+                <div className="slide fade"><div className="gallery-img-container9 galimgmob"><img src="https://i.ibb.co/3CY1QVB/hotel3.jpg" alt="" className="gallery-img-m"/></div></div>
+                <a className="prev" onClick={(e) => plusSlides(-1)}>&#10094;</a>
+                <a className="next" onClick={(e) => plusSlides(1)}>&#10095;</a>
                 </div>
         </div>
             <div className="gallery-wrap">

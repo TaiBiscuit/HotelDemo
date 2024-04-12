@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Contact, Home, NavBar, Gallery, Restaurant, Experience, Information } from '../components';
+import { LoadingContext } from "../context/LoadingContext";
 
 export const ES = () => {
-    
-    return (
+  const {loading} = useContext(LoadingContext); 
+
+  return (
     <>
       {loading &&
       <div className="loading-container">
